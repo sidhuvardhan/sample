@@ -1,0 +1,29 @@
+1. First install git in chrome 64 or 32 size bit as per requirement of system
+2. Allow all requirements and location which you want to download
+3. And open git bash on windows button
+4. Enter git on the terminal
+5. If it shows all the data about git folder then it is working ,other wise reninstall 
+6. configuring git with git hub
+   git config --global user.name("enter name of your git hub account as it is)
+   git config --global user.email("enter email of your git hub account as it is")
+7. Open git folder which was created during installtion of git on any desired disc
+8. Create a new folder in that git folder to store new git files
+9. Open a git bash on that file and enter ls -a
+         if it shows only two dots,then it is not git repository
+         to connect with git hub we need to convert folder into repository
+10.open the git bash on that folder ,then apply "git init"(to convert files into repository)
+11. then again ls -a
+         now it will show git (so it becomes repository)
+12 .we need to add that repositories into staging level
+  so (git add --all)
+13.then check status of the repository 
+    (git status)
+14. after that we need to commit for conformation ,along with message
+   git commit -m "message which you want to show on your tracking system
+15.and then we need to push this local repositories into git hub repositories
+  so we need to connect git to git hub 
+   git remote add orgin (remote name),sometimes it would be "main"  .link of your git hub
+16. after linking ,then push the repo into git hub
+    git push remotename branch name
+    git push oringin master
+Note: whenever we change our code in our local system,then always add to stage level,and then commit
