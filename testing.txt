@@ -1,0 +1,1 @@
+this is a sample file to check whether the filee in the directory working ,in zo file in git hub remote repository
