@@ -1,3 +1,4 @@
+NOTE : we need to create path to git in environmental variables ,through copying the path of the ,git working directory
 1. First install git in chrome 64 or 32 size bit as per requirement of system
 2. Allow all requirements and location which you want to download
 3. And open git bash on windows button
